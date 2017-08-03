@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.nav-items {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items a {
+  font-size: 20px;
+  margin: 0px 50px;
+  color: #808080;
+  text-decoration: none;
+}
+.nav-items a:hover {
+  color: white;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 20px;
+}
+.name a {
+  text-decoration: none;
+  color: #808080;
+}
+.name a:hover {
+  color: white;
+}
+.home-pic {
+  height: 700px;
+  background-image: url('../images/paris.jpg');
+  background-size: cover;
+  /*filter: grayscale(100%);*/
+}
+.graybox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.54);
+  /*opacity: 10%;*/
+}
+.graybox h1 {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 31, 90, 0.5);
+  
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+}
+.icons {
+  color: #808080;
+  font-size: 35px;
+}
+.icons:hover {
+  color: white;
+}
