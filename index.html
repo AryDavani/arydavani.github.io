@@ -6,38 +6,55 @@
     <title>Ary Davani</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="./styles/index.css">
 
   </head>
   <body>
 
-      <div class="home-screen">
+      <div id="header" class="home-screen">
         <div class="home-box">
           <h1>Hello.</h1>
+          <i class="fa fa-angle-double-down arrow moving"></i>
         </div>
       </div>
 
 
-      <nav>
+      <nav id="navbar">
         <div class="name">
-          <a href="#">Ary Davani</a>
+          <!-- <a id="" href="#">Ary Davani</a> -->
         </div>
         <div class="nav-items">
-          <a href="#">about</a>
-          <a href="#">projects</a>
+          <a href="#about">about</a>
+          <a href="#projects">projects</a>
+          <a href="#resume">resume</a>
+          <a href="#contact">connect</a>
         </div>
         <div class="social">
-          <a href="#"><i class="fa fa-github icons"></i></a>
-          <a href="#"><i class="fa fa-linkedin-square icons"></i></a>
-          <a href="#"><i class="fa fa-facebook-square icons"></i></a>
+          <a href="https://github.com/AryDavani"><i class="fa fa-github icons"></i></a>
+          <a href="https://www.linkedin.com/in/ary-davani-97b7a8124/"><i class="fa fa-linkedin-square icons"></i></a>
         </div>
       </nav>
 
       <section class="projects">
-        <img src="./images/majestic-thai.png" alt="project-one">
-        <img src="./images/majestic-thai.png" alt="project-two">
-        <img src="./images/majestic-thai.png" alt="project-three">
+
       </section>
 
+      <section id="about" class="projects">
+
+      </section>
+
+      <hr>
+
+      <section id="projects" class="projects">
+        <!-- <img src="./images/majestic-thai.png" alt="project-one"> -->
+      </section>
+
+      <section id="resume" class="projects">
+
+      </section>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./src/index.js"></script>
   </body>
 </html>

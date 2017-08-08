@@ -1,10 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  /*font-family: 'Roboto', sans-serif;*/
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   margin: 0;
   padding: 0;
+}
+
+#navbar {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
 }
 
 nav {
@@ -12,17 +17,17 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #202020;
 }
 .nav-items {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .nav-items a {
   font-size: 20px;
-  margin: 10px 50px;
+  margin: 10px;
   padding: 10px;
   color: #fff;
   text-decoration: none;
@@ -49,7 +54,6 @@ nav {
 .home-screen {
   height: 100vh;
   background-image: url('../images/laptop.jpg');
-  /*background-color: #fff;*/
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -60,32 +64,38 @@ nav {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .home-box h1 {
+  margin: 150px;
   color: white;
-  /*box-shadow: 0 0 9999px black;*/
-  /*margin-top: -200px;
-  margin-left: 150px;*/
-  /*padding: 10px 80px;*/
   padding: 100px 80px;
   border: 1px white solid;
   font-size: 100px;
   font-weight: 100;
-  /*letter-spacing: 12px;
-  text-shadow: -1px 1px #000, -2px 2px #000, 7px -7px #000, 6px -6px #000, 5px -5px #000, 4px -4px #000, 3px -3px #000, 2px -2px #000, 1px -1px #000;*/
+}
+.arrow {
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+}
+.arrow:hover {
+  cursor: pointer;
+  opacity: .5;
 }
 
 .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 25%;
 }
 .icons {
   color: gray;
   font-size: 35px;
+  margin: 0px 20px;
 }
 .icons:hover {
   color: white;
@@ -109,4 +119,23 @@ nav {
 .projects img:hover {
   cursor: pointer;
   color: black;
+}
+
+@keyframes mymove {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(12px);
+        transform: translateY(12px)
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px)
+    }
+}
+
+.moving {
+    -webkit-animation: mymove 3s infinite;
 }
