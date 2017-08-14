@@ -155,17 +155,21 @@ nav {
   width: 100vw;
 }
 
-.projects img {
+.project1 img {
   border-radius: 5px;
-  width: 30%;
+  width: 400px;
   height: auto;
-  box-shadow: 0 0 40px black;
+  box-shadow: 0 0 30px black;
+  filter: grayscale(30%);
+
 }
 
 .projects img:hover {
   cursor: pointer;
-  color: black;
+  box-shadow: 0 0 60px black;
+  filter: grayscale(0%);
 }
+
 
 @keyframes mymove {
     0% {
