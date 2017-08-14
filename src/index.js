@@ -2,6 +2,7 @@ $(function(){
 
 // scroll functions
   $(window).scroll(function() {
+
     if ($(this).scrollTop() > $('#header').height() - 10) {
       $('#navbar').css('visibility', 'visible');
       $('#navbar').fadeIn(300);
@@ -17,7 +18,6 @@ $(function(){
     }, 700);
     return false;
   });
-
 
 
   });
