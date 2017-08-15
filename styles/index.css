@@ -26,6 +26,7 @@
 
 /**************** banner ************/
 .home-screen {
+  /*width: 100vw;*/
   height: 100vh;
   background-image: url('../images/laptop.jpg');
   background-size: cover;
@@ -43,10 +44,9 @@
   align-items: center;
 }
 .home-box h1 {
-  letter-spacing: 3px;
   margin: 150px;
   color: white;
-  padding: 100px 80px;
+  padding: 5vw 5vw;
   border: 1px white solid;
   font-size: 100px;
   font-weight: 100;
@@ -230,10 +230,10 @@ nav {
 
 .goodbye {
   color: white;
-  font-size: 100px;
+  font-size: 6vw;
   padding: 20px;
   font-weight: 100;
-  padding: 100px 80px;
+  padding: 1.5em 1em;
   border: 1px solid white;
   margin-top: 100px;
 }
