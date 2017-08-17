@@ -210,6 +210,31 @@ nav {
   font-size: 20px;
 }
 
+/************************************************* skills ***********/
+
+.skills {
+    overflow: hidden;
+    text-align: center;
+}
+.skills:before,
+.skills:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.skills:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.skills:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
 @keyframes mymove {
     0% {
         -webkit-transform: translateY(0);
