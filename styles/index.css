@@ -34,6 +34,9 @@
   font-style: italic;
   color: rgba(255, 0, 34, 0.5);
 }
+#social2 {
+  visibility: hidden;
+}
 
 /**************** banner ************/
 .home-screen {
@@ -325,4 +328,33 @@ footer {
   width: 100%;
   height: 100vh;
   background-color: #202020;
+}
+
+@media (max-width: 780px) {
+  #labels {
+    display: none;
+  }
+  #social1 {
+    display: none;
+  }
+  #social2 {
+    visibility: visible;
+  }
+  .nav-items a {
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+  }
+  .nav-items a:hover {
+    padding: 4px;
+    border: 1px solid white;
+  }
+  .about1 {
+    margin-left: 0;
+  }
+  .skill-words {
+    font-size: 20px;
+    margin: 5px 20px;
+  }
+
 }
