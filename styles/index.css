@@ -135,6 +135,9 @@ nav {
   justify-content: space-around;
 }
 .about1 {
+  flex: 0 0 30%;
+  position: relative;
+  top: 10%;
   margin-left: 100px;
   display: flex;
   flex-direction: column;
@@ -153,6 +156,9 @@ nav {
   text-align: center;
 }
 .about2 {
+  flex: 0 0 70%;
+  /*flex-basis: 10%;*/
+  text-align: center;
   margin-top: 20px;
   color: black;
 }
@@ -333,7 +339,7 @@ footer {
   background-color: #202020;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 840px) {
   #labels {
     display: none;
   }
@@ -354,6 +360,7 @@ footer {
   }
   .about1 {
     margin-left: 0;
+    flex: 0 0 90%;
   }
   .skill-words {
     font-size: 20px;
