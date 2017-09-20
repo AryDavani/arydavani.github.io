@@ -260,6 +260,9 @@ nav {
 .experience {
   margin: 2% 12%;
 }
+.experience h2 {
+  font-size: 25px;
+}
 .exp-list {
   font-size: 18px;
   padding: 5px;
