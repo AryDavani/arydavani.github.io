@@ -173,9 +173,10 @@ nav {
   margin: 2px;
 }
 .labels {
+  transition: ;
   letter-spacing: 4px;
   margin-bottom: 100px;
-  text-shadow: 40px 40px rgba(255, 0, 34, 0.5);
+  text-shadow: 40px 40px rgba(255, 0, 34, 0.4);
   font-size: 25px;
 }
 .text-margin {
