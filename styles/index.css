@@ -209,6 +209,7 @@ nav {
 }
 
 .projects img:hover {
+  transform: scale(1.02);
   cursor: pointer;
   box-shadow: 10px 10px 20px gray;
   filter: grayscale(0%);
